@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    height: 100%;
+}
+
+.header {
+    grid-row: 1;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    background-color: wheat;
+}
+
+.header button{
+    background-color:grey;
+    height: 50px;
+    background: none;
+    border-radius: 10px;
+    outline: 1px black solid;
+    margin-top: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.header button{
+    opacity: 50%;
+}
+
+.header h1{
+    padding:10px 8px 10px 8px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color: black;
+    font-size: 20px;
+}
+
+.header button:hover{
+    opacity: 100%;
+    padding-bottom: 10px;
+    outline: 3px solid black;
+    transform: 1s ease;
+    font-size: larger;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-row: 2;
+    background-color: wheat;
+}
+
+
+.hero h1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+}
+
+.hero h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.hero #text #buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-top: 10px;
+}
+
+.hero button {
+    padding: 15px 30px 15px 30px;
+    background: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.hero #image button:hover{
+    transform: rotateX(360deg);
+    transition: all 0.5s ease-in 0s;
+}
+
+.hero #image{
+    padding-top: 10px;
+}
+
+.hero #image img{
+    width: 400px;
+    height: 450px;
+    margin-top: 30px;
+    outline: 3px solid white;
+}
+
+.hero #image{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    padding-bottom: 40px;
+}

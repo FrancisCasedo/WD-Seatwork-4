@@ -1,26 +1,26 @@
 <a name="readme-top">
 
+<a name="readme-top">
+
 <br/>
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/franciscasedo/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Placeholder Logo.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork-4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This seatwork is to show my skills and my creativity in the creation of feature pages
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=franciscasedo/Seatwork-4)
 
 ---
 
@@ -59,18 +59,12 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project includes a landing page which allows you to go to 2 other pages which showcases 2 different feature pages which was copied from 2 different websites.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +111,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Feature page 1 |The layout of feature page 1 was copied from here| https://en.bandainamcoent.eu/elden-ring/elden-ring |
+|Feature page 1|The layout of feature page 1 was copied from here|https://www.stardewvalley.net/|
+|Stardew picture|Picture that is used in the landing page|https://www.pcgamingwiki.com/wiki/Stardew_Valley|
+|Elden ring picture 1|Picture that is used in the elden ring feature page|https://c4.wallpaper.com|
+|Elden ring picture 2|Picture that is used in the elden ring feature page|https://www.pcgamer.com/elden-rings-horse-yay-or-neigh/|
+|Elden ring picture 3|Picture that is used in the elden ring feature page|https://www.uhdpaper.com/2021/10/elden-ring-game-4k-7111e.html?m=1|

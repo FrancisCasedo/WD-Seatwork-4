@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 60px 100vh 300px;
+    height: 100%;
+}
+
+.header {
+    grid-row: 1;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.header button{
+    background-color:grey;
+    height: 50px;
+    background: none;
+    border-radius: 10px;
+    outline: 1px white solid;
+    margin-top: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.header button{
+    opacity: 70%;
+}
+
+.header h1{
+    padding:10px 8px 10px 8px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    color: black;
+    font-size: 20px;
+    z-index: 2;
+    color: white;
+}
+
+.header button:hover {
+    opacity: 100%;
+    padding-bottom: 10px;
+    outline: 3px solid white;
+    transition: transform 1s ease;
+}
+
+.header button:hover h1 {
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    z-index: 1;
+    color: white;
+}
+
+.feature{
+    grid-row: 3;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.feature h1{
+    margin-left: 200PX;
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 150px;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.feature #f1{
+    display: flex;
+    flex-direction: row;
+}
+
+.feature #f1 #f1-2 #text-2{
+    max-width: 900px;
+}
+
+.feature #f1 #f1-2 #text-2 p{
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding-top:10px;
+    padding-bottom: 40px;
+}
+
+.feature #f1 img{
+    margin-left: 200px;
+    width: 600px;
+    height: 450px;
+}
+
+.feature #f1 #f1-2{
+    margin-right: 230px;
+    margin-left: 50px;
+}
+
+.feature #f1 #f1-2 #text-1{
+    background-color: rgb(193,157,83);
+    max-width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+
+.feature #f1-2 #text-1 h2{
+    font-size: 25px;
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+}
+
+.feature #f2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 250px;
+}
+
+.feature #f2 #f2-2 #text-2 p{
+    font-family: Metropolis, Gotham, Helvetic   a Neue, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding-top:10px;
+    padding-bottom: 40px;
+}
+
+.feature #f2 #f2-2 #text-2{
+    max-width: 890px;
+}
+
+.feature #f2 img{
+    padding-right: 200px;
+    width: 600px;
+    height: 450px;
+}
+
+.feature #f2 #f2-2{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.feature #f2 #f2-2 #text-1{
+    background-color: rgb(193,157,83);
+    max-width: 550px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+
+.feature #f2-2 #text-1 h2{
+    font-size: 25px;
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+}
+
+.feature #f3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 250px;
+}
+
+.feature #f3 #f1-2 #text-2{
+    max-width: 900px;
+}
+
+.feature #f3 #f1-2 #text-2 p{
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom: 40px;
+}
+
+.feature #f3 img{
+    margin-left: 200px;
+    width: 600px;
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.feature #f3 #f3-2{
+    margin-right: 230px;
+    margin-left: 50px;
+}
+
+.feature #f3 #f3-2 #text-1{
+    background-color: rgb(193,157,83);
+    max-width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+
+.feature #f3-2 #text-1 h2{
+    font-size: 25px;
+    font-family: Metropolis, Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+}
+
+.feature #f3 #f3-2 #text-2 p{
+    font-family: Metropolis, Gotham, Helvetic   a Neue, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding-top:10px;
+    padding-bottom: 40px;
+}
